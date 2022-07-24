@@ -1,0 +1,33 @@
+{
+ "name": "diligent/module-couponlist",
+ "description": "Coupon Listing extension",
+ "type": "magento2-module",
+ "version": "1.0.0",
+ "license": [
+   "OSL-3.0",
+   "AFL-3.0"
+ ],
+ "keywords": [
+   "magento 2",
+   "diligent",
+   "coupon list",
+   "coupon listing",
+   "coupon listing on cart page"
+ ],
+ "authors": [
+   {
+     "name": "Alakh Niranjan Kumar",
+     "email": "alakhdeveloper@gmail.com",
+     "homepage": "https://test.com",
+     "role": "Technical Support"
+   }
+ ],
+ "autoload": {
+   "files": [
+     "registration.php"
+   ],
+   "psr-4": {
+     "Diligent\\CouponList\\": ""
+   }
+ }
+}
