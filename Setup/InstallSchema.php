@@ -13,7 +13,7 @@ use Magento\Framework\Setup\SchemaSetupInterface;
 class InstallSchema implements InstallSchemaInterface
 {
     /**
-     * Add column into salesrule table.
+     * Add column into salesrule table. 
      *
      * {@inheritdoc}
      *
